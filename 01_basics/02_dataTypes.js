@@ -9,10 +9,11 @@ STRING
 NUMBER
 BOOLEAN 
 BIGINT
-OBJECT
-ARRAY
 NULL
 UNDEFINED
+SYMBOL
+OBJECT
+ARRAY
 */
 
 // Datatype conversion
@@ -56,8 +57,8 @@ let str3 = str1 + str2;
 // console.log(1 + 22 + "35");
 
 let gameCounter = 100;
-console.log(gameCounter)
+console.log(gameCounter);
 gameCounter++;
-console.log(gameCounter)
+console.log(gameCounter);
 ++gameCounter;
-console.log(gameCounter)
+console.log(gameCounter);

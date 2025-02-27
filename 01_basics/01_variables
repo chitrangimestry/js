@@ -2,3 +2,7 @@ const accountId = 144553;
 let accountEmail = "chitrangi@gmail.com";
 var accountPassword = "123456";
 accountCity = "Mumbai";
+let accountState;
+
+//accountId = 32;
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
